@@ -7,11 +7,11 @@ export default function Home() {
       <nav className="absolute top-0 left-0 right-0 z-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-12 py-5 flex items-center justify-between">
           <Image
-            src="/logo.png"
+            src="/logo-white.png"
             alt="R-Way Shipping & Storage"
-            width={160}
-            height={54}
-            className="h-11 w-auto brightness-0 invert"
+            width={500}
+            height={272}
+            className="h-14 md:h-16 w-auto"
             priority
           />
           <a
@@ -183,11 +183,11 @@ export default function Home() {
             reserved.
           </p>
           <Image
-            src="/logo.png"
+            src="/logo-white.png"
             alt="R-Way"
-            width={100}
-            height={34}
-            className="h-6 w-auto brightness-0 invert opacity-30"
+            width={500}
+            height={272}
+            className="h-8 w-auto opacity-30"
           />
         </div>
       </footer>
