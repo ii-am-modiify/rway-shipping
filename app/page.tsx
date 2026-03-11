@@ -11,7 +11,7 @@ export default function Home() {
             alt="R-Way Shipping & Storage"
             width={160}
             height={54}
-            className="h-9 w-auto brightness-0 invert"
+            className="h-11 w-auto brightness-0 invert"
             priority
           />
           <a
@@ -23,36 +23,34 @@ export default function Home() {
         </div>
       </nav>
 
-      {/* Hero with background image */}
+      {/* Hero */}
       <section className="relative h-[85vh] min-h-[600px] max-h-[800px] overflow-hidden">
-        {/* Background image */}
         <Image
           src="/hero.jpg"
-          alt="Commercial shipping port"
+          alt="Freight loading dock"
           fill
           className="object-cover"
           priority
         />
-        {/* Dark overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/50 to-black/20" />
 
-        {/* Content */}
         <div className="relative z-10 h-full flex items-center">
           <div className="max-w-7xl mx-auto px-6 lg:px-12 w-full">
             <div className="max-w-2xl">
               <p className="text-white/60 text-sm font-medium tracking-widest uppercase mb-6">
-                Queens, New York
+                Ozone Park, Queens — New York
               </p>
               <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight">
-                Commercial
+                Trade Show
                 <br />
                 Shipping &
                 <br />
                 Storage
               </h1>
-              <p className="text-white/70 text-lg mt-6 max-w-md leading-relaxed">
-                Freight transport and warehouse storage for businesses across
-                the New York metropolitan area.
+              <p className="text-white/70 text-lg mt-6 max-w-lg leading-relaxed">
+                We move pallets and crates for trade shows and exhibitions
+                across the country. Pickup, storage, and on-time delivery
+                to any venue.
               </p>
               <div className="mt-10 flex flex-wrap gap-4">
                 <a
@@ -79,25 +77,23 @@ export default function Home() {
           Services
         </p>
         <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-16">
-          What we do
+          What we handle
         </h2>
 
         <div className="grid md:grid-cols-3 gap-x-12 gap-y-14">
-          {/* Service 1 */}
           <div className="group">
             <div className="h-px bg-gray-200 mb-8 relative">
               <div className="absolute left-0 top-0 h-px w-12 bg-[#0c1e2f] group-hover:w-full transition-all duration-500" />
             </div>
             <p className="text-sm font-semibold text-gray-400 mb-3">01</p>
-            <h3 className="text-xl font-semibold mb-3">Freight & Shipping</h3>
+            <h3 className="text-xl font-semibold mb-3">Trade Show Freight</h3>
             <p className="text-gray-500 leading-relaxed">
-              Coordinated transport for commercial freight across the tri-state
-              area and beyond. Full chain of custody documentation on every
-              shipment.
+              Pallets, crates, and exhibit materials shipped to convention
+              centers and event venues nationwide. We coordinate pickup,
+              transit, and dock delivery on your timeline.
             </p>
           </div>
 
-          {/* Service 2 */}
           <div className="group">
             <div className="h-px bg-gray-200 mb-8 relative">
               <div className="absolute left-0 top-0 h-px w-12 bg-[#0c1e2f] group-hover:w-full transition-all duration-500" />
@@ -105,22 +101,22 @@ export default function Home() {
             <p className="text-sm font-semibold text-gray-400 mb-3">02</p>
             <h3 className="text-xl font-semibold mb-3">Warehouse Storage</h3>
             <p className="text-gray-500 leading-relaxed">
-              Secure warehouse facility in Queens for inventory, equipment, and
-              materials. Flexible terms with convenient access for pickups and
-              deliveries.
+              Secure facility in Queens for storing exhibit materials, booth
+              equipment, and inventory between shows. Flexible terms with
+              easy access for loading and retrieval.
             </p>
           </div>
 
-          {/* Service 3 */}
           <div className="group">
             <div className="h-px bg-gray-200 mb-8 relative">
               <div className="absolute left-0 top-0 h-px w-12 bg-[#0c1e2f] group-hover:w-full transition-all duration-500" />
             </div>
             <p className="text-sm font-semibold text-gray-400 mb-3">03</p>
-            <h3 className="text-xl font-semibold mb-3">Logistics Management</h3>
+            <h3 className="text-xl font-semibold mb-3">Logistics Coordination</h3>
             <p className="text-gray-500 leading-relaxed">
-              End-to-end coordination from intake to final delivery. One point
-              of contact, clear timelines, and accountability at every stage.
+              End-to-end management from your warehouse to the show floor
+              and back. One point of contact, advance scheduling, and
+              return shipping after the event.
             </p>
           </div>
         </div>
@@ -135,13 +131,13 @@ export default function Home() {
                 Contact
               </p>
               <h2 className="text-white text-3xl md:text-4xl font-bold tracking-tight mb-6">
-                Let&apos;s talk about
+                Have a show
                 <br />
-                your next shipment.
+                coming up?
               </h2>
               <p className="text-gray-400 leading-relaxed max-w-md">
-                Whether you need freight moved or space to store it, reach out
-                and we&apos;ll get back to you within one business day.
+                Tell us where and when. We&apos;ll handle the shipping so you
+                can focus on the event.
               </p>
               <a
                 href="mailto:ar@rwayshipping.com"
