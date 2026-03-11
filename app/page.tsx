@@ -6,13 +6,11 @@ export default function Home() {
       {/* Nav */}
       <nav className="absolute top-0 left-0 right-0 z-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-12 py-5 flex items-center justify-between">
-          <Image
-            src="/logo-white.png"
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/logo.svg"
             alt="R-Way Shipping & Storage"
-            width={500}
-            height={272}
-            className="h-14 md:h-16 w-auto"
-            priority
+            className="h-10 md:h-12 w-auto"
           />
           <a
             href="mailto:ar@rwayshipping.com"
@@ -182,12 +180,11 @@ export default function Home() {
             © {new Date().getFullYear()} R-Way Shipping & Storage. All rights
             reserved.
           </p>
-          <Image
-            src="/logo-white.png"
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/logo.svg"
             alt="R-Way"
-            width={500}
-            height={272}
-            className="h-8 w-auto opacity-30"
+            className="h-6 w-auto opacity-30"
           />
         </div>
       </footer>
